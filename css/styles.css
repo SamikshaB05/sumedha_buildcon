@@ -1,0 +1,179 @@
+html,body{
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4rem 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.container-fluid{
+ padding: 5% 15% 1%;
+}
+.containe-fluid{
+  padding: 3% 7% 0%;
+}
+.homepage_img{
+  height: 35rem;
+  width: 37rem;
+  display: block;
+   float: right;
+
+}
+
+.title h3{
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4rem;
+  color: #16a596;
+}
+.title h5{
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4rem;
+  color: #16a596;
+  padding-left: 60px;
+}
+.title h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  color: #ffc107;
+}
+
+.btn{
+  margin: 30px 0 0 100px;
+}
+.btn1{
+  color: #ffc107;
+}
+a:hover{
+  color: #fff;
+}
+
+/* Contact Us */
+/* Full-width input fields */
+input[type=text], input[type=number], input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact{
+  padding: 0% 3% 2%;
+  margin-top: 0%;
+}
+.contact hr {
+  border-top: 7px solid black;
+}
+.contact .contact-content {
+  margin: auto;
+}
+.container{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 20%;
+  padding: 1%;
+}
+#submit {
+  background-color: #f42535;
+  border: 2px solid #f42535;
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+}
+.contact-heading {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.contact-heading hr {
+  border-top: 1px solid black;
+  width: 20%;
+  margin: auto;
+}
+
+.form{
+  padding: 30px 40px;
+}
+
+/* Contact Details Content */
+.contact-details-content h4 {
+  text-align: center;
+}
+.contact-details-content li {
+  list-style-type: none;
+}
+
+.contact-details-content a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  /* background-color: #4CAF50; */
+  background-color: #f42535;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+@media (max-width:1026px){
+  .title{
+    text-align: center;
+  }
+  .homepage_img{
+    height: 25rem;
+    width: 25rem;
+    display: block;
+     float: inherit;
+     /* margin-top: 5%; */
+  }
+  .title h3{
+    font-size: 3rem;
+  }
+  .title h2{
+    font-size: 3rem;
+  }
+  .title h5{
+    font-size: 3rem;
+      padding-left: 0px;
+  }
+  .btn{
+    margin:auto;
+  }
+}
