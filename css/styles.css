@@ -136,22 +136,6 @@ input[type=text], input[type=number], input[type=submit] {
   color: black;
 }
 
-button {
-  /* background-color: #4CAF50; */
-  background-color: #f42535;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-
 @media (max-width:1026px){
   .title{
     text-align: center;
